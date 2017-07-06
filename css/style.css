@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/*重置样式*/
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+}
+
+/*.hide{display: none;}*/
+
+/*公共部分样式*/
+#wrap{
+	width: 100%;
+	height: 100%;
+	max-width:640px;
+	min-width: 320px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.main{
+	height: 100%;
+	position: relative;
+}
+.page{	
+	width: 100%;
+	height:100%;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	position:absolute;left:0;top:0;z-index:99;
+	transition:all 1s ease;
+}
+
+/*.page_1{background-color: red;}
+.page_2{background-color: blue;}
+.page_3{background-color:orange;}
+.page_4{background-color: #088b00;}*/
+
+/*无限循环*/
+.infinite{animation-iteration-count:infinite;}
+/*延迟时间*/
+.delay-time{animation-delay:1s;}
+/*page页在屏幕下面*/
+.pageDown{transform:translateY(100%);} 
+/*page页在屏幕上面*/
+.pageUp{transform:translateY(-100%);} 
+
+
+/*音乐按钮样式*/
+/*.music_btn{
+	width: 44px;
+	height: 44px;
+	background:url(../images/music.png) center center no-repeat;
+	position: fixed;
+	top:15px;
+	right:15px;
+	z-index: 100;
+}*/
+/*提示箭头样式*/
+.arrow{
+	width: 86px;
+	height:66px;
+	background-color:transparent;
+	position: fixed;
+	bottom:10px;
+	left:46%;
+	z-index:100;
+}
+/*第一页的样式*/
+/*.page_1 img{
+	display: block;
+	width: 20%;
+	height:20%;
+	border-radius:50%;
+	margin:20px auto;
+}
+.page_1 p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align:center;
+	line-height: 40px;
+}
+.page_1 p:nth-child(2){
+	color:lime;
+}
+.page_1 p:nth-child(3){
+	color:pink;
+}
+.page_1 p:nth-child(4){
+	color:yellow;
+}
+.page_1 p:nth-child(5){
+	color:orange;
+}*/
+#header{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#header img{
+	width: 100%;
+	height: 100%;
+}
+#header ul{
+	overflow: hidden;
+	position: fixed;
+	top: 10px;
+	left: 30px;
+	z-index: 50;
+	width: 100%;
+	height: 5%;
+}
+#header ul li{
+	list-style: none;
+	float: left;
+	display: inline-block;
+	width: 17%;
+	height: 125%;
+	text-align: center;
+	line-height: 215%;
+	font-weight: bold;
+}
+#header h1{
+	position: absolute;
+	left: 10%;
+	top: 33%;
+	width: 10%;
+	color: green;
+}
+#header ul li a{
+	text-decoration: none;
+	color: rgb(149,255,26); 
+}

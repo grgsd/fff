@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人简介</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+	
+</head>
+<body>
+	<div class="wrap">
+		<div id="header" class="page page_1">
+			<img src="images/sy_46399328671_03.jpg">
+			<nav>
+				<ul>
+					<li><a href="#header">班级</a></li>
+					<li><a href="#one">个人</a></li>
+					<li><a href="#two">爱好</a></li>
+					<li><a href="#three">作品</a></li>
+					<li><a href="#footer">联系</a></li>
+				</ul>
+			</nav>
+			<h1 class="animated fadeInDown delay-time">R2112班</h1>
+		</div>
+		<div class="page page_2 pageDown" id="one">
+				<div class="xx">冀中职业学院</div>
+				<div class="zy">外部前端</div>
+				<div class="xm">付庭玉</div>
+				<div class="lx">18712722512</div>
+		</div>
+		<div class="page page_3 pageDown" id="two">
+			<h2 class="animated fadeInDown delay-time">爱好</h2>
+			<ul class="banner">
+				<li class="lia">
+					<a href="javascript">
+						<div>看小说</div>
+						<img src="images/timg.jpg">
+					</a>
+				</li>
+				<li class="lib">
+					<a href="javascript">
+						<div>玩游戏</div>
+						<img src="images/Cg-4WVR9Iv6IYUBrAAvQK_-6yAUAARmcwPGSicAC9BD892.jpg">
+					</a>
+				</li>
+				<li class="lic">
+					<a href="javascript">
+						<div>动物</div>
+						<img src="images/timg1.jpg">
+					</a>
+				</li>
+				<li class="lid">
+					<a href="javascript">
+						<div>吃美食</div>
+						<img src="images/13306759439231.jpg">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="page page_4 pageDown" id="three">
+			<h2 class="animated fadeInDown delay-time">作品介绍</h2>
+			<a href="http://fatenext.coding.me/300yx/" class="yx">
+				<img src="images/300_01.jpg">
+			</a>
+			<a href="http://fatenext.coding.me/ds/" class="ds">
+				<img src="images/emoi_01.jpg">
+			</a>
+			<a href="http://fatenext.coding.me/fczc/" class="ui">
+				<img src="images/zhongchou.png">
+			</a>
+		</div>
+		<div class="page page_5 pageDown" id="footer">
+			<div class="dh animated fadeInUp delay-time"><span>联系电话:</span>18712722512</div>
+			<div class="qq animated fadeInLeft delay-time">QQ:</div>
+			<img src="images/3245FFF99BF3A251C7BDCC48FB761D36_03.jpg" class="qt animated fadeInLeft delay-time">
+			<div class="wx animated fadeInRight delay-time">微信:</div>
+			<img src="images/CA9B4C41A21017A7CE74B5481699F55D_02_03.jpg" class="wt animated fadeInRight delay-time">
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+<script type="text/javascript" src="js/swipe.js"></script>
+<script type="text/javascript">
+$(function(){
+	var pageIndex = 0;
+	var pageNum = $(".page").length-1;
+	touch.on('.main','swipeUp',function(){
+	})
+})
+</script>
+</html>
